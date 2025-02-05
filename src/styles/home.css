@@ -1,0 +1,54 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-image {
+    font-size: 40px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  
+  .contact-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    width: 580px;
+  }
+  
+  .contact-actions {
+    display: flex;
+    gap: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: -90px;
+  }
+
+  .float-right {
+    float: right;
+  }
+
+  .btn2{
+    width: 875px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    height: 38px;
+  }
